@@ -10,7 +10,7 @@ CONF=udr
 PRODUCT_TYPE=udr
 UABOARD=mt7622
 UAVENDOR=mtk
-CROSS_PATH=${CROSS_PATH:-/opt/buildroot-gcc492_arm/usr/bin}
+CROSS_PATH=${CROSS_PATH:-./toolchain/buildroot-gcc492_arm/usr/bin}
 CROSS_COMPILE=arm-linux-
 UBOOT_DEBUG="V=s verbose=1"
 MK_EXTRA="$UBOOT_DEBUG CROSS_COMPILE=$CROSS_COMPILE"
