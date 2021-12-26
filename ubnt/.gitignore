@@ -1,0 +1,6 @@
+/ubnt_app
+/ubnt_app.bin
+/ubnt_app.map
+/ubnt_app-tftp
+/ubnt_app-with-key.bin
+include/ubnt_config.h
